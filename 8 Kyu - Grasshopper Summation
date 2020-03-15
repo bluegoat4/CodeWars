@@ -1,0 +1,8 @@
+def summation(num):
+    p=0
+    for i in range(0,num):
+        i = i+1
+        newList=[i]
+        for i in range(0,len(newList)):
+            p = p+newList[i-1]
+    return(p)
