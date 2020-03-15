@@ -1,0 +1,5 @@
+def add_binary(a,b):
+    binValue = a+b
+    binConvert = bin(binValue)
+    binFinal = str(binConvert[2:])
+    return (binFinal)
