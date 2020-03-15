@@ -1,0 +1,8 @@
+def openOrSenior(data):
+    listMembership = []
+    for i,k in data:
+        if i >= 55 and k > 7:
+            listMembership.append("Senior")
+        else:
+            listMembership.append("Open")
+    return listMembership
