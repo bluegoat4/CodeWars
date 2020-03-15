@@ -1,0 +1,6 @@
+def Descending_Order(num):
+    listNum = list(str(num))
+    sortList = sorted(listNum,reverse = True)
+    joinNum = ''.join(sortList)
+    finalNum = int(joinNum)
+    return finalNum
