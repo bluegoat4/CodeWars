@@ -1,0 +1,8 @@
+def validate_pin(pin):
+    strPin = str(pin)
+    if strPin.isdecimal() == False:
+        return False
+    elif len(strPin) == 4 or len(strPin) == 6:
+        return True
+    else:
+        return False
