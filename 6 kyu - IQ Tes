@@ -1,0 +1,17 @@
+def iq_test(numbers):
+    listEven = []
+    listOdd = []
+    ans = ''
+    splitNumbers = numbers.split()
+    for i in range(0,len(splitNumbers)):
+        if int(splitNumbers[i]) % 2 == 0:
+            listEven.append([i+1])
+        else:
+            listOdd.append([i+1])
+    if len(listEven) == 1:
+        ans = str(listEven[0])
+    else:
+        ans = str(listOdd[0])
+    ans2 = ans.replace("[",'')
+    ans3=ans2.replace("]",'')
+    return(int(ans3))
