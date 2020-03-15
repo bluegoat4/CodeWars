@@ -1,0 +1,12 @@
+def DNA_strand(dna):
+    newList = []
+    for i in range(0,len(dna)):
+        if dna[i] == 'A':
+            newList.append('T')
+        elif dna[i] == 'T':
+            newList.append('A')
+        elif dna[i] == 'C':
+            newList.append('G')
+        elif dna[i] == 'G':
+            newList.append('C')
+    return (''.join(newList))
