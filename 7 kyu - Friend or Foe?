@@ -1,0 +1,6 @@
+def friend(x):
+    newList = []
+    for word in x:
+        if len(word) == 4:
+            newList.append(word)
+    return newList
