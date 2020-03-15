@@ -1,0 +1,5 @@
+def count(string):
+    newDict = {}
+    for i in range(0,len(string)):
+        newDict[string[i]] = string.count(string[i])
+    return newDict
