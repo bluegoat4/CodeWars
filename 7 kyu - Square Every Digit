@@ -1,0 +1,8 @@
+def square_digits(num):
+    strnum=str(num)
+    newList = []
+    listnum = list(strnum)
+    for i in range (0,len(listnum)):
+         newList.append((int(listnum[i]))**2)
+    finalNumber = int("".join(map(str,newList)))
+    return finalNumber
