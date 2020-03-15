@@ -1,0 +1,3 @@
+def opposite(number):
+  oppositeNumber = number * -1
+  return oppositeNumber
