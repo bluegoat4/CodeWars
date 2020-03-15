@@ -1,0 +1,7 @@
+def title_case(title, minor_words=''):
+    title = title.lower().split()
+    minor_words = minor_words.lower().split()
+    for i in range(0, len(title)):
+        if i == 0 or title[i] not in minor_words:
+            title[i] = title[i].capitalize()
+    return ' '.join(title)
